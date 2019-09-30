@@ -1,0 +1,47 @@
+{
+  "allnames": [
+    {
+      "id": 1,
+      "name": "Ramesh",
+      "type": "end"
+    },
+    {
+      "id": 2,
+      "name": "Suresh",
+      "type": "Admin"
+    },
+    {
+      "id": 3,
+      "name": "Asif",
+      "type": "end"
+    },
+    {
+      "id": 4,
+      "name": "Wasim",
+      "type": "admin"
+    },
+    {
+      "id": 5,
+      "name": "Kaleem",
+      "type": "admin"
+    },
+    {
+      "id": 6,
+      "name": "xcvsdfv",
+      "type": "admin"
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "name": "end"
+    },
+    {
+      "id": 2,
+      "name": "admin"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

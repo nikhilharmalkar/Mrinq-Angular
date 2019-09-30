@@ -1,0 +1,22 @@
+<div class="row">
+
+  <div class="col-sm-12">
+        <form [formGroup]="addnameForm" (ngSubmit)="addnameFormSubmit()">
+                      <div formGroupName="adddetails">
+                          
+                          <br>
+                          Name<br>
+                          <input type="text" formControlName = "name" required>
+                          <br>
+                          Type<br>
+                          <select formControlName = "type">
+                            <option *ngFor="let ty of alltype" [value]="ty.name">{{ty.name}}</option>
+                         </select>
+                          <br><br>
+                          <input type="submit" value="Submit">
+
+                      </div>
+        </form>
+  </div>
+</div>                      
+            
